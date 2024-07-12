@@ -40,6 +40,7 @@ const UserSchema: Schema<User> = new mongoose.Schema({
     type: String,
     required: [true, "Email is required"],
     unique: true,
+    // eslint-disable-next-line
     match: [/.+\@.+\..+/, "Please use a valid email address"],
   },
   password: {

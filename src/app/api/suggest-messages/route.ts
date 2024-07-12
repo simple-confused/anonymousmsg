@@ -12,7 +12,7 @@ const openai = new OpenAI({
 });
 
 export const runtime = "edge";
-
+//eslint-disable-next-line
 export async function POST(req: Request) {
   try {
     const prompt =

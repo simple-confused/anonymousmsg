@@ -56,7 +56,7 @@ export async function POST(request: Request) {
     );
   }
 }
-
+//eslint-disable-next-line
 export async function GET(request: Request) {
   // Connect to the database
   await dbConnect();
